@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainMenu {
+    width: 100%;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+.mainMenu > button:first-child {
+    background-color: #288769;
+    color:#ffdfb2;
+}
+.mainMenu > button {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 7%;
+    height: 20%;
+    background-color:#062948;
+    color: #edc967;
+    border-radius: 10px;
+    border:2px black solid;
+    box-shadow: 3px 5px black;
+}
+.mainMenu > button:first-child:hover {
+    background-color: #23ca95;
+}
+.mainMenu > button:hover {
+    background-color: #146ab6;
+    cursor: pointer;
+}
+.mainMenu > button:active {
+    transform: translateY(3px);
+    box-shadow: 3px 2px black;
+    transition: 0.1s;
+}
+.mainMenu > button:focus{
+    transition: 0.1s;
+    
+}
+.flexContainer{
+    display: flex;
+    background-color: sandybrown;
+    height: 100%;
+    width: 100%;
+}
+.cardInfo{
+    width: 390px;
+    height:100%;
+}
+.sortClass{
+    width:200px;
+    height: 20  0px;
+    display: flex;
+    background-color: #e9e0d2;
+}
+
+.infoTopLeft{
+    display:flex;
+    width:100%;
+    color:white;
+}
+.cardInvdidual{
+    width: 200px;
+    height: 300px;
+    margin:20px 0px 10px 10px;
+    padding:5px;
+    padding-bottom: 0;
+    background-color:black;
+}
+.cardName{
+    text-align: center;
+    border:2px #454745 solid;
+    background-color: #9ba39b;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 2px;
+    font-size: 16px;
+}
+.infoHeader{
+    padding-top: 7px;
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    font-size:18px;
+    color: #edc967;
+    text-align: center;
+    background-color: #062948;
+    border-radius: 10px 10px 2px 2px;
+}
+.header{
+    color:#945d13;
+}
+.infoEffect{
+    background-color: #e9e0d2;
+    margin-left: 1%;
+    border: 3px gray solid;
+    border-radius:0.2%;
+    padding:1.7%;
+    font-size:15px;
+    height:95%;
+}
