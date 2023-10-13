@@ -34,10 +34,10 @@
 .mainMenu > button:active {
     transform: translateY(3px);
     box-shadow: 3px 2px black;
-    transition: 0.1s;
+    transition: 0.05s;
 }
 .mainMenu > button:focus{
-    transition: 0.1s;
+    transition: 0.05s;
     
 }
 .flexContainer{
